@@ -1,0 +1,30 @@
+{
+    "REQS_PATH": "Data/Sheets/Requirements.xlsx",
+    "BUCKETS_PATH": "Data/Sheets/Buckets.xlsx",
+    "COURSES_PATH": "Data/Sheets/Courses.xlsx",
+    "PROGRAM_REF_PATH": "Data/JSONs/programs_ref.json", 
+    "RUNS_AND_PROGRAMS": 
+        {"MATH_MAJOR_ONLY": ["MATH_MAJOR", "ALL_MAJORS"],
+        "OIE_MAJOR_ONLY": ["OIE_MAJOR", "ALL_MAJORS"],
+        "MATH_OIE_DOUBLE": ["MATH_MAJOR", "OIE_MAJOR", "ALL_MAJORS"]},
+
+    "MAJOR_NAMES": 
+        {"MATH_MAJOR": "Mathematical Sciences", 
+        "OIE_MAJOR": "Operations and Industrial Engineering", 
+        "ALL_MAJORS": "General Education and Projects"},
+
+    "COURSE_SHEET_COLS": ["Key", "Name", "Credits", "Terms", "Category", "Xlists"],
+    "REQ_SREQ_FIELDS": {
+        "REQ_SHEET_COLS" : ["Program Key", "Req Key", "Credits", "Req Description"],
+        "REQ_ATTRS" : ["Credits", "Req Description"],
+        "SREQ_SHEET_COLS" : ["Program Key", "Sreq Key", "Sreq Type", "Credits", "Applicable Reqs", "Sreq Description", "Sublists Count"],
+        "SREQ_LITERAL_EVAL" : ["Applicable Reqs"],
+        "SREQ_ATTRS" : ["Credits", "Applicable Reqs", "Sreq Description", "Sublists Count"]
+    },
+    "BUCKET_FIELDS": {
+        "BUCKET_SHEETS": ["MATH_MAJOR", "OIE_MAJOR", "MATH_OIE_DOUBLE"],
+        "BUCKET_SHEET_COLS" : ["Bucket Key", "Bucket Size", "Req Keys", "Bucket Description", "Credits Each", "Choice Weight", "Bucket Contents"],
+        "BUCKET_ATTRS" : ["Bucket Size", "Req Keys", "Bucket Description", "Credits Each", "Choice Weight", "Bucket Contents"],
+        "BUCKET_LITERAL_EVAL" : ["Req Keys", "Bucket Contents"]
+    }
+}

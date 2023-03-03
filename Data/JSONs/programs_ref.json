@@ -1,0 +1,2930 @@
+{
+    "MATH_MAJOR_ONLY": {
+        "ALL_MAJORS": {
+            "Reqs": {
+                "HUA_CORE": {
+                    "Buckets": [
+                        "ART_CON",
+                        "FLG_CON",
+                        "WR_CON",
+                        "HI_CON",
+                        "PY_CON"
+                    ],
+                    "Credits": 15,
+                    "Req Description": "Humanities"
+                },
+                "HUA_PROJ": {
+                    "Buckets": [
+                        "HUA_PROJ"
+                    ],
+                    "Credits": 3,
+                    "Req Description": "Humanities"
+                },
+                "IQP": {
+                    "Buckets": [
+                        "IQP_ON_CM",
+                        "IQP_OFF_CM"
+                    ],
+                    "Credits": 9,
+                    "Req Description": "IQP"
+                },
+                "SOC_SCI_REQ": {
+                    "Buckets": [
+                        "ECON_2910",
+                        "ID_2050",
+                        "ALL_SOC_SCI"
+                    ],
+                    "Credits": 6,
+                    "Req Description": "Social Science"
+                }
+            },
+            "Sreqs": {
+                "HUA_ART_MAX": {
+                    "Applicable Reqs": [
+                        "HUA_CORE"
+                    ],
+                    "Buckets": [
+                        "ART_CON"
+                    ],
+                    "Credits": 12.0,
+                    "Sreq Description": "Breadth requirement",
+                    "Sreq Type": "1b",
+                    "Sublists Count": 0
+                },
+                "HUA_DEPTH": {
+                    "Applicable Reqs": [
+                        "HUA_CORE"
+                    ],
+                    "Buckets": [
+                        [
+                            "ART_CON"
+                        ],
+                        [
+                            "FLG_CON"
+                        ],
+                        [
+                            "WR_CON"
+                        ],
+                        [
+                            "HI_CON"
+                        ],
+                        [
+                            "PY_CON"
+                        ]
+                    ],
+                    "Credits": 9.0,
+                    "Sreq Description": "Depth requirement",
+                    "Sreq Type": "2",
+                    "Sublists Count": 5
+                },
+                "HUA_HI_MAX": {
+                    "Applicable Reqs": [
+                        "HUA_CORE"
+                    ],
+                    "Buckets": [
+                        "HI_CON"
+                    ],
+                    "Credits": 12.0,
+                    "Sreq Description": "Breadth requirement",
+                    "Sreq Type": "1b",
+                    "Sublists Count": 0
+                },
+                "HUA_PY_MAX": {
+                    "Applicable Reqs": [
+                        "HUA_CORE"
+                    ],
+                    "Buckets": [
+                        "PY_CON"
+                    ],
+                    "Credits": 12.0,
+                    "Sreq Description": "Breadth requirement",
+                    "Sreq Type": "1b",
+                    "Sublists Count": 0
+                },
+                "HUA_WR_MAX": {
+                    "Applicable Reqs": [
+                        "HUA_CORE"
+                    ],
+                    "Buckets": [
+                        "WR_CON"
+                    ],
+                    "Credits": 12.0,
+                    "Sreq Description": "Breadth requirement",
+                    "Sreq Type": "1b",
+                    "Sublists Count": 0
+                },
+                "ON_OFF_CAMPUS": {
+                    "Applicable Reqs": [
+                        "IQP",
+                        "SOC_SCI_REQ"
+                    ],
+                    "Buckets": [
+                        "IQP_ON_CM",
+                        "ID_2050"
+                    ],
+                    "Credits": 3.0,
+                    "Sreq Description": "Must take ID 2050 for off campus IQP",
+                    "Sreq Type": "1a",
+                    "Sublists Count": 0
+                }
+            }
+        },
+        "Buckets": {
+            "ABS_ALG": {
+                "Bucket Contents": [
+                    "MA_3823",
+                    "MA_3825"
+                ],
+                "Bucket Description": "MA 3823, 3825",
+                "Bucket Size": 2,
+                "Choice Weight": 2,
+                "Credits Each": 3,
+                "Req Keys": [
+                    "MA_ABSTR",
+                    "MA_UPRLVL",
+                    "MA_INTRO"
+                ]
+            },
+            "ALL_SOC_SCI": {
+                "Bucket Contents": [
+                    "ECON_DEPT",
+                    "ENV_DEPT",
+                    "GOV_DEPT",
+                    "PSY_DEPT",
+                    "SD_DEPT",
+                    "SOC_DEPT",
+                    "SS_DEPT",
+                    "STS_DEPT",
+                    "DEV_DEPT",
+                    "MU_2501",
+                    "ENV_2500"
+                ],
+                "Bucket Description": "Social Science",
+                "Bucket Size": 60,
+                "Choice Weight": 60,
+                "Credits Each": 3,
+                "Req Keys": [
+                    "SOC_SCI_REQ"
+                ]
+            },
+            "ART_CON": {
+                "Bucket Contents": [
+                    "AR_DEPT",
+                    "TH_DEPT",
+                    "MUS_DEPT",
+                    "IMGD_341X"
+                ],
+                "Bucket Description": "Humanities",
+                "Bucket Size": 20,
+                "Choice Weight": 20,
+                "Credits Each": 3,
+                "Req Keys": [
+                    "HUA_CORE",
+                    "HUA_DEPTH_SL_0",
+                    "HUA_ART_MAX"
+                ]
+            },
+            "BUS_SCH_ELECT": {
+                "Bucket Contents": [
+                    "BUS_DEPT",
+                    "ETR_DEPT",
+                    "MKT_DEPT",
+                    "OIE_DEPT",
+                    "MIS_DEPT",
+                    "OBC_DEPT",
+                    "FIN_DEPT"
+                ],
+                "Bucket Description": "Business School (any)",
+                "Bucket Size": 100,
+                "Choice Weight": 100,
+                "Credits Each": 3,
+                "Req Keys": [
+                    "MA_REL_CR",
+                    "MA_REL_CR_MAX"
+                ]
+            },
+            "CS_2022": {
+                "Bucket Contents": [
+                    "CS_2022"
+                ],
+                "Bucket Description": "CS 2022",
+                "Bucket Size": 1,
+                "Choice Weight": 1,
+                "Credits Each": 3,
+                "Req Keys": [
+                    "MA_CS_DS",
+                    "MA_REL_CR",
+                    "MA_CSDS_MAX",
+                    "MA_INTRO",
+                    "MA_REL_CR_MAX"
+                ]
+            },
+            "CS_3043": {
+                "Bucket Contents": [
+                    "CS_3043"
+                ],
+                "Bucket Description": "CS 3043",
+                "Bucket Size": 1,
+                "Choice Weight": 1,
+                "Credits Each": 3,
+                "Req Keys": [
+                    "MA_CS_DS",
+                    "MA_REL_CR",
+                    "MA_CSDS_MAX",
+                    "MA_REL_CR_MAX"
+                ]
+            },
+            "CS_DS_DEPTS": {
+                "Bucket Contents": [
+                    "CS_DEPT",
+                    "DS_DEPT",
+                    "BCB_4002",
+                    "BCB_4003"
+                ],
+                "Bucket Description": "CS DEPT, DS DEPT",
+                "Bucket Size": 40,
+                "Choice Weight": 45,
+                "Credits Each": 3,
+                "Req Keys": [
+                    "MA_CS_DS",
+                    "MA_REL_CR",
+                    "MA_REL_CR_MAX"
+                ]
+            },
+            "DS_4635": {
+                "Bucket Contents": [
+                    "DS_4635"
+                ],
+                "Bucket Description": "DS 4635",
+                "Bucket Size": 1,
+                "Choice Weight": 1,
+                "Credits Each": 3,
+                "Req Keys": [
+                    "MA_UPRLVL",
+                    "MA_INTRO",
+                    "MA_CS_DS",
+                    "MA_REL_CR",
+                    "MA_REL_CR_MAX"
+                ]
+            },
+            "ECON_2910": {
+                "Bucket Contents": [
+                    "ECON_2910"
+                ],
+                "Bucket Description": "ECON 2910",
+                "Bucket Size": 1,
+                "Choice Weight": 1,
+                "Credits Each": 3,
+                "Req Keys": [
+                    "MA_REL_CR",
+                    "SOC_SCI_REQ",
+                    "MA_REL_CR_MAX"
+                ]
+            },
+            "FLG_CON": {
+                "Bucket Contents": [
+                    "CN_DEPT",
+                    "GN_DEPT",
+                    "SP_DEPT",
+                    "AB_DEPT",
+                    "ID_3525",
+                    "ID_3527",
+                    "ID_3529",
+                    "ID_3530",
+                    "ID_3531"
+                ],
+                "Bucket Description": "Humanities",
+                "Bucket Size": 20,
+                "Choice Weight": 20,
+                "Credits Each": 3,
+                "Req Keys": [
+                    "HUA_CORE",
+                    "HUA_DEPTH_SL_4"
+                ]
+            },
+            "HI_CON": {
+                "Bucket Contents": [
+                    "HI_DEPT",
+                    "HU_DEPT",
+                    "INTL_DEPT"
+                ],
+                "Bucket Description": "Humanities",
+                "Bucket Size": 20,
+                "Choice Weight": 20,
+                "Credits Each": 3,
+                "Req Keys": [
+                    "HUA_CORE",
+                    "HUA_DEPTH_SL_2",
+                    "HUA_HI_MAX"
+                ]
+            },
+            "HUA_PROJ": {
+                "Bucket Contents": [
+                    "HU_3900",
+                    "HU_3910"
+                ],
+                "Bucket Description": "HU 3900 or 3910",
+                "Bucket Size": 2,
+                "Choice Weight": 1,
+                "Credits Each": 3,
+                "Req Keys": [
+                    "HUA_PROJ"
+                ]
+            },
+            "ID_2050": {
+                "Bucket Contents": [
+                    "ID_2050"
+                ],
+                "Bucket Description": "ID 2050",
+                "Bucket Size": 1,
+                "Choice Weight": 1,
+                "Credits Each": 3,
+                "Req Keys": [
+                    "SOC_SCI_REQ",
+                    "ON_OFF_CAMPUS"
+                ]
+            },
+            "IQP_OFF_CM": {
+                "Bucket Contents": [
+                    "IQP_OFF_CAMPUS",
+                    "IQP_A",
+                    "IQP_B",
+                    "IQP_C",
+                    "IQP_D"
+                ],
+                "Bucket Description": "IQP off campus",
+                "Bucket Size": 4,
+                "Choice Weight": 100,
+                "Credits Each": 9,
+                "Req Keys": [
+                    "IQP"
+                ]
+            },
+            "IQP_ON_CM": {
+                "Bucket Contents": [
+                    "IQP_ON_CAMPUS"
+                ],
+                "Bucket Description": "IQP on campus",
+                "Bucket Size": 1,
+                "Choice Weight": 25,
+                "Credits Each": 9,
+                "Req Keys": [
+                    "IQP",
+                    "ON_OFF_CAMPUS"
+                ]
+            },
+            "MA_3000P": {
+                "Bucket Contents": [
+                    "MA_DEPT_3000_L",
+                    "MA_DEPT_4000_L",
+                    "BCB_4004"
+                ],
+                "Bucket Description": "MA 3000+",
+                "Bucket Size": 22,
+                "Choice Weight": 26,
+                "Credits Each": 3,
+                "Req Keys": [
+                    "MA_UPRLVL",
+                    "MA_INTRO"
+                ]
+            },
+            "MA_3631": {
+                "Bucket Contents": [
+                    "MA_3631"
+                ],
+                "Bucket Description": "MA 3631",
+                "Bucket Size": 1,
+                "Choice Weight": 1,
+                "Credits Each": 3,
+                "Req Keys": [
+                    "MA_TRANSIT",
+                    "MA_UPRLVL",
+                    "MA_INTRO"
+                ]
+            },
+            "MA_ANY": {
+                "Bucket Contents": [
+                    "MA_DEPT"
+                ],
+                "Bucket Description": "MA DEPT",
+                "Bucket Size": 16,
+                "Choice Weight": 50,
+                "Credits Each": 3,
+                "Req Keys": [
+                    "MA_INTRO"
+                ]
+            },
+            "NUM_METHD": {
+                "Bucket Contents": [
+                    "CS_4032",
+                    "CS_4033",
+                    "MA_3257",
+                    "MA_3457"
+                ],
+                "Bucket Description": "Numerical Methods",
+                "Bucket Size": 2,
+                "Choice Weight": 2,
+                "Credits Each": 3,
+                "Req Keys": [
+                    "MA_NMTHD",
+                    "MA_UPRLVL",
+                    "MA_INTRO"
+                ]
+            },
+            "PY_CON": {
+                "Bucket Contents": [
+                    "PY_DEPT",
+                    "RE_DEPT"
+                ],
+                "Bucket Description": "Humanities",
+                "Bucket Size": 20,
+                "Choice Weight": 20,
+                "Credits Each": 3,
+                "Req Keys": [
+                    "HUA_CORE",
+                    "HUA_DEPTH_SL_3",
+                    "HUA_PY_MAX"
+                ]
+            },
+            "REAL_ALYS": {
+                "Bucket Contents": [
+                    "MA_3831",
+                    "MA_3832"
+                ],
+                "Bucket Description": "MA 3831, 3832",
+                "Bucket Size": 2,
+                "Choice Weight": 2,
+                "Credits Each": 3,
+                "Req Keys": [
+                    "MA_REAL",
+                    "MA_UPRLVL",
+                    "MA_INTRO"
+                ]
+            },
+            "REG_SCI_ES": {
+                "Bucket Contents": [
+                    "PH_DEPT",
+                    "CH_DEPT",
+                    "ES_DEPT",
+                    "BB_DEPT",
+                    "GE_DEPT",
+                    "ECE_2112",
+                    "AE_2550",
+                    "BB_4190"
+                ],
+                "Bucket Description": "Science (PH, CH, ES, BB, GE)",
+                "Bucket Size": 100,
+                "Choice Weight": 100,
+                "Credits Each": 3,
+                "Req Keys": [
+                    "MA_GEN_SCI",
+                    "MA_REL_CR",
+                    "MA_REL_CR_MAX"
+                ]
+            },
+            "TRANSIT_LL": {
+                "Bucket Contents": [
+                    "MA_1033",
+                    "MA_1971"
+                ],
+                "Bucket Description": "MA 1033, 1971",
+                "Bucket Size": 2,
+                "Choice Weight": 2,
+                "Credits Each": 3,
+                "Req Keys": [
+                    "MA_TRANSIT",
+                    "MA_TRANSIT_MAX",
+                    "MA_INTRO"
+                ]
+            },
+            "TRANSIT_R": {
+                "Bucket Contents": [
+                    "MA_2073",
+                    "MA_2631",
+                    "MA_2211",
+                    "MA_2251",
+                    "MA_2271",
+                    "MA_2273",
+                    "MA_2431"
+                ],
+                "Bucket Description": "Transition Courses",
+                "Bucket Size": 7,
+                "Choice Weight": 7,
+                "Credits Each": 3,
+                "Req Keys": [
+                    "MA_TRANSIT",
+                    "MA_INTRO"
+                ]
+            },
+            "WR_CON": {
+                "Bucket Contents": [
+                    "EN_DEPT",
+                    "WR_DEPT",
+                    "IMGD_2400",
+                    "IMGD_3400",
+                    "EN_241X"
+                ],
+                "Bucket Description": "Humanities",
+                "Bucket Size": 20,
+                "Choice Weight": 20,
+                "Credits Each": 3,
+                "Req Keys": [
+                    "HUA_CORE",
+                    "HUA_DEPTH_SL_1",
+                    "HUA_WR_MAX"
+                ]
+            }
+        },
+        "MATH_MAJOR": {
+            "Reqs": {
+                "MA_ABSTR": {
+                    "Buckets": [
+                        "ABS_ALG"
+                    ],
+                    "Credits": 3,
+                    "Req Description": "Abstract Algebra"
+                },
+                "MA_CS_DS": {
+                    "Buckets": [
+                        "CS_DS_DEPTS",
+                        "CS_3043",
+                        "CS_2022",
+                        "DS_4635"
+                    ],
+                    "Credits": 6,
+                    "Req Description": "Computer and Data Science"
+                },
+                "MA_GEN_SCI": {
+                    "Buckets": [
+                        "REG_SCI_ES"
+                    ],
+                    "Credits": 6,
+                    "Req Description": "General Science"
+                },
+                "MA_INTRO": {
+                    "Buckets": [
+                        "MA_3000P",
+                        "MA_3631",
+                        "REAL_ALYS",
+                        "ABS_ALG",
+                        "MA_ANY",
+                        "TRANSIT_R",
+                        "TRANSIT_LL",
+                        "CS_2022",
+                        "NUM_METHD",
+                        "DS_4635"
+                    ],
+                    "Credits": 24,
+                    "Req Description": "Intro and Elective Math Courses"
+                },
+                "MA_NMTHD": {
+                    "Buckets": [
+                        "NUM_METHD"
+                    ],
+                    "Credits": 3,
+                    "Req Description": "Numerical Methods"
+                },
+                "MA_REAL": {
+                    "Buckets": [
+                        "REAL_ALYS"
+                    ],
+                    "Credits": 6,
+                    "Req Description": "Real Analysis"
+                },
+                "MA_REL_CR": {
+                    "Buckets": [
+                        "CS_DS_DEPTS",
+                        "CS_3043",
+                        "CS_2022",
+                        "DS_4635",
+                        "REG_SCI_ES",
+                        "BUS_SCH_ELECT",
+                        "ECON_2910"
+                    ],
+                    "Credits": 6,
+                    "Req Description": "Related Courses"
+                },
+                "MA_TRANSIT": {
+                    "Buckets": [
+                        "MA_3631",
+                        "TRANSIT_R",
+                        "TRANSIT_LL"
+                    ],
+                    "Credits": 12,
+                    "Req Description": "Transition Courses"
+                },
+                "MA_UPRLVL": {
+                    "Buckets": [
+                        "MA_3000P",
+                        "MA_3631",
+                        "REAL_ALYS",
+                        "ABS_ALG",
+                        "NUM_METHD",
+                        "DS_4635"
+                    ],
+                    "Credits": 9,
+                    "Req Description": "Upper Level Math"
+                }
+            },
+            "Sreqs": {
+                "MA_CSDS_MAX": {
+                    "Applicable Reqs": [
+                        "MA_CS_DS",
+                        "MA_REL_CR"
+                    ],
+                    "Buckets": [
+                        "CS_3043",
+                        "CS_2022"
+                    ],
+                    "Credits": 3.0,
+                    "Sreq Description": "At most one of DS 1010, CS 2022, and CS 3043 may be used for the related courses requirement",
+                    "Sreq Type": "1b",
+                    "Sublists Count": 0
+                },
+                "MA_REL_CR_MAX": {
+                    "Applicable Reqs": [
+                        "MA_REL_CR"
+                    ],
+                    "Buckets": [
+                        "CS_DS_DEPTS",
+                        "CS_3043",
+                        "CS_2022",
+                        "DS_4635",
+                        "REG_SCI_ES",
+                        "BUS_SCH_ELECT",
+                        "ECON_2910"
+                    ],
+                    "Credits": 7.5,
+                    "Sreq Description": "Avoid over-filling related courses",
+                    "Sreq Type": "1b",
+                    "Sublists Count": 0
+                },
+                "MA_TRANSIT_MAX": {
+                    "Applicable Reqs": [
+                        "MA_TRANSIT"
+                    ],
+                    "Buckets": [
+                        "TRANSIT_LL"
+                    ],
+                    "Credits": 3.0,
+                    "Sreq Description": "At most one of MA 1033 and MA 1971 may count toward Transition Courses",
+                    "Sreq Type": "1b",
+                    "Sublists Count": 0
+                }
+            }
+        }
+    },
+    "MATH_OIE_DOUBLE": {
+        "ALL_MAJORS": {
+            "Reqs": {
+                "HUA_CORE": {
+                    "Buckets": [
+                        "ART_CON",
+                        "WR_CON",
+                        "HI_CON",
+                        "PY_CON",
+                        "FLG_CON"
+                    ],
+                    "Credits": 15,
+                    "Req Description": "Humanities"
+                },
+                "HUA_PROJ": {
+                    "Buckets": [
+                        "HUA_PROJ"
+                    ],
+                    "Credits": 3,
+                    "Req Description": "Humanities"
+                },
+                "IQP": {
+                    "Buckets": [
+                        "IQP_ON_CM",
+                        "IQP_OFF_CM"
+                    ],
+                    "Credits": 9,
+                    "Req Description": "IQP"
+                },
+                "SOC_SCI_REQ": {
+                    "Buckets": [
+                        "ECON_2910",
+                        "ID_2050",
+                        "ALL_SOC_SCI"
+                    ],
+                    "Credits": 6,
+                    "Req Description": "Social Science"
+                }
+            },
+            "Sreqs": {
+                "HUA_ART_MAX": {
+                    "Applicable Reqs": [
+                        "HUA_CORE"
+                    ],
+                    "Buckets": [
+                        "ART_CON"
+                    ],
+                    "Credits": 12.0,
+                    "Sreq Description": "Breadth requirement",
+                    "Sreq Type": "1b",
+                    "Sublists Count": 0
+                },
+                "HUA_DEPTH": {
+                    "Applicable Reqs": [
+                        "HUA_CORE"
+                    ],
+                    "Buckets": [
+                        [
+                            "ART_CON"
+                        ],
+                        [
+                            "WR_CON"
+                        ],
+                        [
+                            "HI_CON"
+                        ],
+                        [
+                            "PY_CON"
+                        ],
+                        [
+                            "FLG_CON"
+                        ]
+                    ],
+                    "Credits": 9.0,
+                    "Sreq Description": "Depth requirement",
+                    "Sreq Type": "2",
+                    "Sublists Count": 5
+                },
+                "HUA_HI_MAX": {
+                    "Applicable Reqs": [
+                        "HUA_CORE"
+                    ],
+                    "Buckets": [
+                        "HI_CON"
+                    ],
+                    "Credits": 12.0,
+                    "Sreq Description": "Breadth requirement",
+                    "Sreq Type": "1b",
+                    "Sublists Count": 0
+                },
+                "HUA_PY_MAX": {
+                    "Applicable Reqs": [
+                        "HUA_CORE"
+                    ],
+                    "Buckets": [
+                        "PY_CON"
+                    ],
+                    "Credits": 12.0,
+                    "Sreq Description": "Breadth requirement",
+                    "Sreq Type": "1b",
+                    "Sublists Count": 0
+                },
+                "HUA_WR_MAX": {
+                    "Applicable Reqs": [
+                        "HUA_CORE"
+                    ],
+                    "Buckets": [
+                        "WR_CON"
+                    ],
+                    "Credits": 12.0,
+                    "Sreq Description": "Breadth requirement",
+                    "Sreq Type": "1b",
+                    "Sublists Count": 0
+                },
+                "ON_OFF_CAMPUS": {
+                    "Applicable Reqs": [
+                        "IQP",
+                        "SOC_SCI_REQ"
+                    ],
+                    "Buckets": [
+                        "IQP_ON_CM",
+                        "ID_2050"
+                    ],
+                    "Credits": 3.0,
+                    "Sreq Description": "Must take ID 2050 for off campus IQP",
+                    "Sreq Type": "1a",
+                    "Sublists Count": 0
+                }
+            }
+        },
+        "Buckets": {
+            "ABS_ALG": {
+                "Bucket Contents": [
+                    "MA_3823",
+                    "MA_3825"
+                ],
+                "Bucket Description": "MA 3823, 3825",
+                "Bucket Size": 2,
+                "Choice Weight": 2,
+                "Credits Each": 3,
+                "Req Keys": [
+                    "MA_ABSTR",
+                    "MA_INTRO",
+                    "MA_TRANSIT",
+                    "MA_UPRLVL",
+                    "OIE_MA_SCI"
+                ]
+            },
+            "ALL_SOC_SCI": {
+                "Bucket Contents": [
+                    "ECON_DEPT",
+                    "ENV_DEPT",
+                    "GOV_DEPT",
+                    "PSY_DEPT",
+                    "SD_DEPT",
+                    "SOC_DEPT",
+                    "SS_DEPT",
+                    "STS_DEPT",
+                    "DEV_DEPT",
+                    "MU_2501",
+                    "ENV_2500"
+                ],
+                "Bucket Description": "Social Science",
+                "Bucket Size": 60,
+                "Choice Weight": 60,
+                "Credits Each": 3,
+                "Req Keys": [
+                    "SOC_SCI_REQ"
+                ]
+            },
+            "ART_CON": {
+                "Bucket Contents": [
+                    "AR_DEPT",
+                    "TH_DEPT",
+                    "MUS_DEPT",
+                    "IMGD_341X"
+                ],
+                "Bucket Description": "Humanities",
+                "Bucket Size": 20,
+                "Choice Weight": 20,
+                "Credits Each": 3,
+                "Req Keys": [
+                    "HUA_CORE",
+                    "HUA_DEPTH_SL_0",
+                    "HUA_ART_MAX"
+                ]
+            },
+            "BB_4190": {
+                "Bucket Contents": [
+                    "BB_4190"
+                ],
+                "Bucket Description": "BB 4190",
+                "Bucket Size": 1,
+                "Choice Weight": 1,
+                "Credits Each": 3,
+                "Req Keys": [
+                    "MA_GEN_SCI",
+                    "MA_REL_CR",
+                    "OIE_CH",
+                    "OIE_MA_SCI",
+                    "OIE_SCI",
+                    "MA_REL_CR_MAX"
+                ]
+            },
+            "BCB_4004": {
+                "Bucket Contents": [
+                    "BCB_4004"
+                ],
+                "Bucket Description": "BCB 4004",
+                "Bucket Size": 1,
+                "Choice Weight": 1,
+                "Credits Each": 3,
+                "Req Keys": [
+                    "OIE_MA_SCI"
+                ]
+            },
+            "BUS_SCH_ELECT": {
+                "Bucket Contents": [
+                    "BUS_DEPT",
+                    "ETR_DEPT",
+                    "MKT_DEPT",
+                    "MIS_DEPT",
+                    "OBC_DEPT",
+                    "FIN_DEPT"
+                ],
+                "Bucket Description": "Business School, any",
+                "Bucket Size": 50,
+                "Choice Weight": 50,
+                "Credits Each": 3,
+                "Req Keys": [
+                    "MA_REL_CR",
+                    "MA_REL_CR_MAX"
+                ]
+            },
+            "CALC_I": {
+                "Bucket Contents": [
+                    "MA_1021"
+                ],
+                "Bucket Description": "MA 1021",
+                "Bucket Size": 1,
+                "Choice Weight": 1,
+                "Credits Each": 3,
+                "Req Keys": [
+                    "MA_INTRO",
+                    "OIE_CALC_I"
+                ]
+            },
+            "CALC_II": {
+                "Bucket Contents": [
+                    "MA_1022"
+                ],
+                "Bucket Description": "MA 1022",
+                "Bucket Size": 1,
+                "Choice Weight": 1,
+                "Credits Each": 3,
+                "Req Keys": [
+                    "MA_INTRO",
+                    "OIE_CALC_II"
+                ]
+            },
+            "CALC_III": {
+                "Bucket Contents": [
+                    "MA_1023"
+                ],
+                "Bucket Description": "MA 1023",
+                "Bucket Size": 1,
+                "Choice Weight": 1,
+                "Credits Each": 3,
+                "Req Keys": [
+                    "MA_INTRO",
+                    "OIE_CALC_III"
+                ]
+            },
+            "CALC_IV": {
+                "Bucket Contents": [
+                    "MA_1024",
+                    "MA_1034"
+                ],
+                "Bucket Description": "Calc IV",
+                "Bucket Size": 2,
+                "Choice Weight": 2,
+                "Credits Each": 3,
+                "Req Keys": [
+                    "MA_INTRO",
+                    "OIE_CALC_IV"
+                ]
+            },
+            "CE_3022": {
+                "Bucket Contents": [
+                    "CE_3022"
+                ],
+                "Bucket Description": "CE 3022",
+                "Bucket Size": 1,
+                "Choice Weight": 1,
+                "Credits Each": 3,
+                "Req Keys": [
+                    "OIE_ELECT_RESTR"
+                ]
+            },
+            "CH_ANY": {
+                "Bucket Contents": [
+                    "CH_DEPT"
+                ],
+                "Bucket Description": "CH DEPT",
+                "Bucket Size": 30,
+                "Choice Weight": 30,
+                "Credits Each": 3,
+                "Req Keys": [
+                    "MA_GEN_SCI",
+                    "MA_REL_CR",
+                    "OIE_SCI",
+                    "OIE_MA_SCI",
+                    "OIE_CH",
+                    "MA_REL_CR_MAX"
+                ]
+            },
+            "CS_2022": {
+                "Bucket Contents": [
+                    "CS_2022"
+                ],
+                "Bucket Description": "CS 2022",
+                "Bucket Size": 1,
+                "Choice Weight": 1,
+                "Credits Each": 3,
+                "Req Keys": [
+                    "MA_INTRO",
+                    "MA_CS_DS",
+                    "MA_CSDS_MAX",
+                    "MA_REL_CR",
+                    "OIE_MA_SCI",
+                    "OIE_TECH_ELECT",
+                    "MA_REL_CR_MAX"
+                ]
+            },
+            "CS_21XX": {
+                "Bucket Contents": [
+                    "CS_2119",
+                    "CS_2102",
+                    "CS_2103"
+                ],
+                "Bucket Description": "CS 2119, 2102, 2103",
+                "Bucket Size": 3,
+                "Choice Weight": 3,
+                "Credits Each": 3,
+                "Req Keys": [
+                    "MA_CS_DS",
+                    "MA_REL_CR",
+                    "OIE_TECH_ELECT",
+                    "OIE_CS",
+                    "MA_REL_CR_MAX"
+                ]
+            },
+            "CS_3043": {
+                "Bucket Contents": [
+                    "CS_3043"
+                ],
+                "Bucket Description": "CS 3043",
+                "Bucket Size": 1,
+                "Choice Weight": 1,
+                "Credits Each": 3,
+                "Req Keys": [
+                    "MA_CS_DS",
+                    "MA_CSDS_MAX",
+                    "MA_REL_CR",
+                    "OIE_TECH_ELECT",
+                    "OIE_ELECT_RESTR",
+                    "MA_REL_CR_MAX"
+                ]
+            },
+            "CS_DEPT": {
+                "Bucket Contents": [
+                    "CS_DEPT",
+                    "BCB_4002",
+                    "BCB_4003"
+                ],
+                "Bucket Description": "CS DEPT",
+                "Bucket Size": 31,
+                "Choice Weight": 41,
+                "Credits Each": 3,
+                "Req Keys": [
+                    "MA_CS_DS",
+                    "MA_REL_CR",
+                    "OIE_TECH_ELECT",
+                    "MA_REL_CR_MAX"
+                ]
+            },
+            "DIF_EQ": {
+                "Bucket Contents": [
+                    "MA_2051"
+                ],
+                "Bucket Description": "MA 2051",
+                "Bucket Size": 1,
+                "Choice Weight": 1,
+                "Credits Each": 3,
+                "Req Keys": [
+                    "MA_INTRO",
+                    "OIE_DIFEQ"
+                ]
+            },
+            "DS_4635": {
+                "Bucket Contents": [
+                    "DS_4635",
+                    "MA_4635"
+                ],
+                "Bucket Description": "DS 4635",
+                "Bucket Size": 1,
+                "Choice Weight": 1,
+                "Credits Each": 3,
+                "Req Keys": [
+                    "MA_INTRO",
+                    "MA_CS_DS",
+                    "MA_REL_CR",
+                    "MA_UPRLVL",
+                    "OIE_MA_SCI",
+                    "MA_REL_CR_MAX"
+                ]
+            },
+            "DS_DEPT": {
+                "Bucket Contents": [
+                    "DS_DEPT"
+                ],
+                "Bucket Description": "DS DEPT",
+                "Bucket Size": 3,
+                "Choice Weight": 4,
+                "Credits Each": 3,
+                "Req Keys": [
+                    "MA_CS_DS",
+                    "MA_REL_CR",
+                    "MA_REL_CR_MAX"
+                ]
+            },
+            "ECE_2112": {
+                "Bucket Contents": [
+                    "ECE_2112"
+                ],
+                "Bucket Description": "ECE 2112",
+                "Bucket Size": 1,
+                "Choice Weight": 1,
+                "Credits Each": 3,
+                "Req Keys": [
+                    "OIE_SCI",
+                    "OIE_MA_SCI",
+                    "OIE_PH",
+                    "OIE_TECH_ELECT"
+                ]
+            },
+            "ECON_2910": {
+                "Bucket Contents": [
+                    "ECON_2910"
+                ],
+                "Bucket Description": "ECON 2910",
+                "Bucket Size": 1,
+                "Choice Weight": 1,
+                "Credits Each": 3,
+                "Req Keys": [
+                    "MA_REL_CR",
+                    "SOC_SCI_REQ",
+                    "MA_REL_CR_MAX"
+                ]
+            },
+            "ES_ANY": {
+                "Bucket Contents": [
+                    "ES_DEPT"
+                ],
+                "Bucket Description": "ES DEPT",
+                "Bucket Size": 30,
+                "Choice Weight": 30,
+                "Credits Each": 3,
+                "Req Keys": [
+                    "MA_GEN_SCI",
+                    "MA_REL_CR",
+                    "OIE_ES",
+                    "OIE_TECH_ELECT",
+                    "MA_REL_CR_MAX"
+                ]
+            },
+            "FLG_CON": {
+                "Bucket Contents": [
+                    "CN_DEPT",
+                    "GN_DEPT",
+                    "SP_DEPT",
+                    "AB_DEPT",
+                    "ID_3525",
+                    "ID_3527",
+                    "ID_3529",
+                    "ID_3530",
+                    "ID_3531"
+                ],
+                "Bucket Description": "Humanities",
+                "Bucket Size": 20,
+                "Choice Weight": 20,
+                "Credits Each": 3,
+                "Req Keys": [
+                    "HUA_CORE",
+                    "HUA_DEPTH_SL_4"
+                ]
+            },
+            "HI_CON": {
+                "Bucket Contents": [
+                    "HI_DEPT",
+                    "HU_DEPT",
+                    "INTL_DEPT"
+                ],
+                "Bucket Description": "Humanities",
+                "Bucket Size": 20,
+                "Choice Weight": 20,
+                "Credits Each": 3,
+                "Req Keys": [
+                    "HUA_CORE",
+                    "HUA_DEPTH_SL_2",
+                    "HUA_HI_MAX"
+                ]
+            },
+            "HUA_PROJ": {
+                "Bucket Contents": [
+                    "HU_3900",
+                    "HU_3910"
+                ],
+                "Bucket Description": "HU 3900 or 3910",
+                "Bucket Size": 2,
+                "Choice Weight": 1,
+                "Credits Each": 3,
+                "Req Keys": [
+                    "HUA_PROJ"
+                ]
+            },
+            "ID_2050": {
+                "Bucket Contents": [
+                    "ID_2050"
+                ],
+                "Bucket Description": "ID 2050",
+                "Bucket Size": 1,
+                "Choice Weight": 1,
+                "Credits Each": 3,
+                "Req Keys": [
+                    "SOC_SCI_REQ",
+                    "ON_OFF_CAMPUS"
+                ]
+            },
+            "IQP_OFF_CM": {
+                "Bucket Contents": [
+                    "IQP_OFF_CAMPUS",
+                    "IQP_A",
+                    "IQP_B",
+                    "IQP_C",
+                    "IQP_D"
+                ],
+                "Bucket Description": "IQP off campus",
+                "Bucket Size": 4,
+                "Choice Weight": 100,
+                "Credits Each": 9,
+                "Req Keys": [
+                    "IQP"
+                ]
+            },
+            "IQP_ON_CM": {
+                "Bucket Contents": [
+                    "IQP_ON_CAMPUS"
+                ],
+                "Bucket Description": "IQP on campus",
+                "Bucket Size": 1,
+                "Choice Weight": 25,
+                "Credits Each": 9,
+                "Req Keys": [
+                    "IQP",
+                    "ON_OFF_CAMPUS"
+                ]
+            },
+            "MA_1033": {
+                "Bucket Contents": [
+                    "MA_1033"
+                ],
+                "Bucket Description": "MA 1033",
+                "Bucket Size": 1,
+                "Choice Weight": 1,
+                "Credits Each": 3,
+                "Req Keys": [
+                    "MA_INTRO",
+                    "MA_TRANSIT",
+                    "MA_TRANSIT_MAX",
+                    "OIE_CALC_III"
+                ]
+            },
+            "MA_2631": {
+                "Bucket Contents": [
+                    "MA_2631"
+                ],
+                "Bucket Description": "MA 2631",
+                "Bucket Size": 1,
+                "Choice Weight": 1,
+                "Credits Each": 3,
+                "Req Keys": [
+                    "MA_INTRO",
+                    "MA_TRANSIT",
+                    "OIE_STATS_II",
+                    "OIE_MA_SCI"
+                ]
+            },
+            "MA_3000P": {
+                "Bucket Contents": [
+                    "MA_DEPT_3000_L",
+                    "MA_DEPT_4000_L",
+                    "BCB_4004"
+                ],
+                "Bucket Description": "MA 3000+",
+                "Bucket Size": 14,
+                "Choice Weight": 27,
+                "Credits Each": 3,
+                "Req Keys": [
+                    "MA_INTRO",
+                    "MA_UPRLVL",
+                    "OIE_MA_SCI"
+                ]
+            },
+            "MA_3631": {
+                "Bucket Contents": [
+                    "MA_3631"
+                ],
+                "Bucket Description": "MA 3631",
+                "Bucket Size": 1,
+                "Choice Weight": 1,
+                "Credits Each": 3,
+                "Req Keys": [
+                    "MA_INTRO",
+                    "MA_TRANSIT",
+                    "MA_UPRLVL",
+                    "OIE_MA_SCI",
+                    "OIE_ELECT",
+                    "OIE_TECH_ELECT"
+                ]
+            },
+            "MA_ANY": {
+                "Bucket Contents": [
+                    "MA_DEPT"
+                ],
+                "Bucket Description": "MA DEPT",
+                "Bucket Size": 7,
+                "Choice Weight": 52,
+                "Credits Each": 3,
+                "Req Keys": [
+                    "MA_INTRO",
+                    "OIE_MA_SCI"
+                ]
+            },
+            "NUM_METHD": {
+                "Bucket Contents": [
+                    "CS_4032",
+                    "CS_4033",
+                    "MA_3257",
+                    "MA_3457"
+                ],
+                "Bucket Description": "Numerical Methods",
+                "Bucket Size": 2,
+                "Choice Weight": 2,
+                "Credits Each": 3,
+                "Req Keys": [
+                    "MA_INTRO",
+                    "MA_NMTHD",
+                    "MA_UPRLVL",
+                    "OIE_MA_SCI",
+                    "OIE_TECH_ELECT"
+                ]
+            },
+            "OIE_3600": {
+                "Bucket Contents": [
+                    "OIE_3600"
+                ],
+                "Bucket Description": "OIE 3600",
+                "Bucket Size": 1,
+                "Choice Weight": 1,
+                "Credits Each": 3,
+                "Req Keys": [
+                    "MA_REL_CR",
+                    "OIE_CS",
+                    "OIE_ELECT",
+                    "OIE_TECH_ELECT",
+                    "MA_REL_CR_MAX"
+                ]
+            },
+            "OIE_CHOICE": {
+                "Bucket Contents": [
+                    "OIE_3405",
+                    "OIE_4430"
+                ],
+                "Bucket Description": "OIE 3405, 4430",
+                "Bucket Size": 2,
+                "Choice Weight": 2,
+                "Credits Each": 3,
+                "Req Keys": [
+                    "MA_REL_CR",
+                    "OIE_44_34",
+                    "OIE_ELECT",
+                    "OIE_TECH_ELECT",
+                    "MA_REL_CR_MAX"
+                ]
+            },
+            "OIE_CORE": {
+                "Bucket Contents": [
+                    "OIE_2081",
+                    "BUS_3020",
+                    "OIE_2850",
+                    "OIE_3410",
+                    "OIE_3420",
+                    "OIE_3460",
+                    "OIE_3510"
+                ],
+                "Bucket Description": "OIE Core",
+                "Bucket Size": 7,
+                "Choice Weight": 7,
+                "Credits Each": 3,
+                "Req Keys": [
+                    "MA_REL_CR",
+                    "OIE_CORE",
+                    "MA_REL_CR_MAX"
+                ]
+            },
+            "OIE_ENG_ELECT": {
+                "Bucket Contents": [
+                    "CE_DEPT",
+                    "CHE_DEPT",
+                    "ECE_DEPT",
+                    "ME_DEPT",
+                    "RBE_DEPT",
+                    "BME_4504",
+                    "BME_4606",
+                    "BME_4814"
+                ],
+                "Bucket Description": "Engineering elective",
+                "Bucket Size": 50,
+                "Choice Weight": 50,
+                "Credits Each": 3,
+                "Req Keys": [
+                    "OIE_TECH_ELECT"
+                ]
+            },
+            "OIE_ENG_RESTR": {
+                "Bucket Contents": [
+                    "CS_1004",
+                    "CS_1101",
+                    "CS_1102"
+                ],
+                "Bucket Description": "CS 1004, 1101, 1102",
+                "Bucket Size": 3,
+                "Choice Weight": 3,
+                "Credits Each": 3,
+                "Req Keys": [
+                    "MA_CS_DS",
+                    "MA_REL_CR",
+                    "OIE_ELECT_RESTR",
+                    "MA_REL_CR_MAX"
+                ]
+            },
+            "OIE_ES_RESTR": {
+                "Bucket Contents": [
+                    "ES_3323"
+                ],
+                "Bucket Description": "ES 3323",
+                "Bucket Size": 1,
+                "Choice Weight": 1,
+                "Credits Each": 3,
+                "Req Keys": [
+                    "MA_GEN_SCI",
+                    "MA_REL_CR",
+                    "OIE_ES_RESTR",
+                    "OIE_ES",
+                    "OIE_TECH_ELECT",
+                    "MA_REL_CR_MAX"
+                ]
+            },
+            "OIE_MA_ELECT": {
+                "Bucket Contents": [
+                    "MA_3231",
+                    "MA_3233",
+                    "MA_3627",
+                    "MA_4235",
+                    "MA_4237",
+                    "MA_4631",
+                    "MA_4632"
+                ],
+                "Bucket Description": "OIE MATH",
+                "Bucket Size": 7,
+                "Choice Weight": 7,
+                "Credits Each": 3,
+                "Req Keys": [
+                    "MA_INTRO",
+                    "MA_UPRLVL",
+                    "OIE_ELECT",
+                    "OIE_MA_SCI",
+                    "OIE_TECH_ELECT"
+                ]
+            },
+            "OIE_MIS_ELECT": {
+                "Bucket Contents": [
+                    "MIS_3720",
+                    "MIS_4084",
+                    "MIS_4720",
+                    "MIS_4741"
+                ],
+                "Bucket Description": "OIE MIS",
+                "Bucket Size": 4,
+                "Choice Weight": 4,
+                "Credits Each": 3,
+                "Req Keys": [
+                    "OIE_ELECT",
+                    "OIE_TECH_ELECT"
+                ]
+            },
+            "OIE_OTHER": {
+                "Bucket Contents": [
+                    "OIE_4410",
+                    "OIE_4460"
+                ],
+                "Bucket Description": "OIE 4410, 4460",
+                "Bucket Size": 2,
+                "Choice Weight": 2,
+                "Credits Each": 3,
+                "Req Keys": [
+                    "MA_REL_CR",
+                    "OIE_ELECT",
+                    "OIE_TECH_ELECT",
+                    "MA_REL_CR_MAX"
+                ]
+            },
+            "OTHR_SCI": {
+                "Bucket Contents": [
+                    "BB_DEPT",
+                    "GE_DEPT"
+                ],
+                "Bucket Description": "BB DEPT, GE DEPT",
+                "Bucket Size": 30,
+                "Choice Weight": 30,
+                "Credits Each": 3,
+                "Req Keys": [
+                    "MA_GEN_SCI",
+                    "MA_REL_CR",
+                    "OIE_MA_SCI",
+                    "MA_REL_CR_MAX"
+                ]
+            },
+            "PH_ANY": {
+                "Bucket Contents": [
+                    "PH_DEPT"
+                ],
+                "Bucket Description": "PH DEPT",
+                "Bucket Size": 30,
+                "Choice Weight": 30,
+                "Credits Each": 3,
+                "Req Keys": [
+                    "MA_GEN_SCI",
+                    "MA_REL_CR",
+                    "OIE_MA_SCI",
+                    "OIE_SCI",
+                    "OIE_PH",
+                    "MA_REL_CR_MAX"
+                ]
+            },
+            "PROB_STATS": {
+                "Bucket Contents": [
+                    "MA_2612",
+                    "MA_2621"
+                ],
+                "Bucket Description": "MA 2612, 2621",
+                "Bucket Size": 2,
+                "Choice Weight": 2,
+                "Credits Each": 3,
+                "Req Keys": [
+                    "MA_INTRO",
+                    "OIE_STATS_II",
+                    "OIE_MA_SCI"
+                ]
+            },
+            "PY_CON": {
+                "Bucket Contents": [
+                    "PY_DEPT",
+                    "RE_DEPT"
+                ],
+                "Bucket Description": "Humanities",
+                "Bucket Size": 20,
+                "Choice Weight": 20,
+                "Credits Each": 3,
+                "Req Keys": [
+                    "HUA_CORE",
+                    "HUA_DEPTH_SL_3",
+                    "HUA_PY_MAX"
+                ]
+            },
+            "REAL_ALYS": {
+                "Bucket Contents": [
+                    "MA_3831",
+                    "MA_3832"
+                ],
+                "Bucket Description": "MA 3831, 3832",
+                "Bucket Size": 2,
+                "Choice Weight": 2,
+                "Credits Each": 3,
+                "Req Keys": [
+                    "MA_INTRO",
+                    "MA_TRANSIT",
+                    "MA_REAL",
+                    "MA_UPRLVL",
+                    "OIE_MA_SCI"
+                ]
+            },
+            "REG_SCI_ES": {
+                "Bucket Contents": [
+                    "AE_2550"
+                ],
+                "Bucket Description": "AE 2550",
+                "Bucket Size": 1,
+                "Choice Weight": 1,
+                "Credits Each": 3,
+                "Req Keys": [
+                    "MA_GEN_SCI",
+                    "MA_REL_CR",
+                    "OIE_PH",
+                    "OIE_MA_SCI",
+                    "OIE_SCI",
+                    "MA_REL_CR_MAX"
+                ]
+            },
+            "STATS_1": {
+                "Bucket Contents": [
+                    "MA_2611"
+                ],
+                "Bucket Description": "MA 2611",
+                "Bucket Size": 1,
+                "Choice Weight": 1,
+                "Credits Each": 3,
+                "Req Keys": [
+                    "MA_INTRO",
+                    "OIE_STATS_I"
+                ]
+            },
+            "TRANSIT_LL": {
+                "Bucket Contents": [
+                    "MA_1971"
+                ],
+                "Bucket Description": "MA 1971",
+                "Bucket Size": 1,
+                "Choice Weight": 1,
+                "Credits Each": 3,
+                "Req Keys": [
+                    "MA_INTRO",
+                    "MA_TRANSIT",
+                    "MA_TRANSIT_MAX",
+                    "OIE_MA_SCI"
+                ]
+            },
+            "TRANSIT_R": {
+                "Bucket Contents": [
+                    "MA_2073",
+                    "MA_2211",
+                    "MA_2251",
+                    "MA_2271",
+                    "MA_2273",
+                    "MA_2431"
+                ],
+                "Bucket Description": "Math Transition Course",
+                "Bucket Size": 6,
+                "Choice Weight": 6,
+                "Credits Each": 3,
+                "Req Keys": [
+                    "MA_INTRO",
+                    "MA_TRANSIT",
+                    "OIE_MA_SCI"
+                ]
+            },
+            "WR_CON": {
+                "Bucket Contents": [
+                    "EN_DEPT",
+                    "WR_DEPT",
+                    "IMGD_2400",
+                    "IMGD_3400",
+                    "EN_241X"
+                ],
+                "Bucket Description": "Humanities",
+                "Bucket Size": 20,
+                "Choice Weight": 20,
+                "Credits Each": 3,
+                "Req Keys": [
+                    "HUA_CORE",
+                    "HUA_DEPTH_SL_1",
+                    "HUA_WR_MAX"
+                ]
+            }
+        },
+        "MATH_MAJOR": {
+            "Reqs": {
+                "MA_ABSTR": {
+                    "Buckets": [
+                        "ABS_ALG"
+                    ],
+                    "Credits": 3,
+                    "Req Description": "Abstract Algebra"
+                },
+                "MA_CS_DS": {
+                    "Buckets": [
+                        "CS_DEPT",
+                        "CS_21XX",
+                        "CS_3043",
+                        "CS_2022",
+                        "OIE_ENG_RESTR",
+                        "DS_DEPT",
+                        "DS_4635"
+                    ],
+                    "Credits": 6,
+                    "Req Description": "Computer and Data Science"
+                },
+                "MA_GEN_SCI": {
+                    "Buckets": [
+                        "OTHR_SCI",
+                        "BB_4190",
+                        "REG_SCI_ES",
+                        "PH_ANY",
+                        "CH_ANY",
+                        "OIE_ES_RESTR",
+                        "ES_ANY"
+                    ],
+                    "Credits": 6,
+                    "Req Description": "General Science"
+                },
+                "MA_INTRO": {
+                    "Buckets": [
+                        "MA_3000P",
+                        "OIE_MA_ELECT",
+                        "MA_3631",
+                        "REAL_ALYS",
+                        "ABS_ALG",
+                        "MA_ANY",
+                        "CALC_I",
+                        "CALC_II",
+                        "CALC_III",
+                        "CALC_IV",
+                        "MA_1033",
+                        "TRANSIT_LL",
+                        "DIF_EQ",
+                        "STATS_1",
+                        "PROB_STATS",
+                        "MA_2631",
+                        "TRANSIT_R",
+                        "CS_2022",
+                        "NUM_METHD",
+                        "DS_4635"
+                    ],
+                    "Credits": 24,
+                    "Req Description": "Intro and Elective Math Courses"
+                },
+                "MA_NMTHD": {
+                    "Buckets": [
+                        "NUM_METHD"
+                    ],
+                    "Credits": 3,
+                    "Req Description": "Numerical Methods"
+                },
+                "MA_REAL": {
+                    "Buckets": [
+                        "REAL_ALYS"
+                    ],
+                    "Credits": 6,
+                    "Req Description": "Real Analysis"
+                },
+                "MA_REL_CR": {
+                    "Buckets": [
+                        "CS_DEPT",
+                        "CS_21XX",
+                        "CS_3043",
+                        "CS_2022",
+                        "OIE_ENG_RESTR",
+                        "DS_DEPT",
+                        "DS_4635",
+                        "OIE_CORE",
+                        "OIE_3600",
+                        "OIE_OTHER",
+                        "OIE_CHOICE",
+                        "OTHR_SCI",
+                        "BB_4190",
+                        "REG_SCI_ES",
+                        "PH_ANY",
+                        "CH_ANY",
+                        "OIE_ES_RESTR",
+                        "ES_ANY",
+                        "BUS_SCH_ELECT",
+                        "ECON_2910"
+                    ],
+                    "Credits": 6,
+                    "Req Description": "Related Courses"
+                },
+                "MA_TRANSIT": {
+                    "Buckets": [
+                        "MA_3631",
+                        "REAL_ALYS",
+                        "ABS_ALG",
+                        "MA_1033",
+                        "TRANSIT_LL",
+                        "MA_2631",
+                        "TRANSIT_R"
+                    ],
+                    "Credits": 12,
+                    "Req Description": "Transition Courses"
+                },
+                "MA_UPRLVL": {
+                    "Buckets": [
+                        "MA_3000P",
+                        "OIE_MA_ELECT",
+                        "MA_3631",
+                        "REAL_ALYS",
+                        "ABS_ALG",
+                        "NUM_METHD",
+                        "DS_4635"
+                    ],
+                    "Credits": 9,
+                    "Req Description": "Upper Level Math"
+                }
+            },
+            "Sreqs": {
+                "MA_CSDS_MAX": {
+                    "Applicable Reqs": [
+                        "MA_CS_DS",
+                        "MA_REL_CR"
+                    ],
+                    "Buckets": [
+                        "CS_3043",
+                        "CS_2022"
+                    ],
+                    "Credits": 3.0,
+                    "Sreq Description": "At most one of DS 1010, CS 2022, and CS 3043 may be used for the related courses requirement",
+                    "Sreq Type": "1b",
+                    "Sublists Count": 0
+                },
+                "MA_REL_CR_MAX": {
+                    "Applicable Reqs": [
+                        "MA_REL_CR"
+                    ],
+                    "Buckets": [
+                        "CS_DEPT",
+                        "CS_21XX",
+                        "CS_3043",
+                        "CS_2022",
+                        "OIE_ENG_RESTR",
+                        "DS_DEPT",
+                        "DS_4635",
+                        "OIE_CORE",
+                        "OIE_3600",
+                        "OIE_OTHER",
+                        "OIE_CHOICE",
+                        "OTHR_SCI",
+                        "BB_4190",
+                        "REG_SCI_ES",
+                        "PH_ANY",
+                        "CH_ANY",
+                        "OIE_ES_RESTR",
+                        "ES_ANY",
+                        "BUS_SCH_ELECT",
+                        "ECON_2910"
+                    ],
+                    "Credits": 7.5,
+                    "Sreq Description": "Avoid over-filling related courses",
+                    "Sreq Type": "1b",
+                    "Sublists Count": 0
+                },
+                "MA_TRANSIT_MAX": {
+                    "Applicable Reqs": [
+                        "MA_TRANSIT"
+                    ],
+                    "Buckets": [
+                        "MA_1033",
+                        "TRANSIT_LL"
+                    ],
+                    "Credits": 3.0,
+                    "Sreq Description": "At most one of MA 1033 and MA 1971 may count toward Transition Courses",
+                    "Sreq Type": "1b",
+                    "Sublists Count": 0
+                }
+            }
+        },
+        "OIE_MAJOR": {
+            "Reqs": {
+                "OIE_44_34": {
+                    "Buckets": [
+                        "OIE_CHOICE"
+                    ],
+                    "Credits": 3,
+                    "Req Description": "OIE Core"
+                },
+                "OIE_CALC_I": {
+                    "Buckets": [
+                        "CALC_I"
+                    ],
+                    "Credits": 3,
+                    "Req Description": "Calculus Sequence"
+                },
+                "OIE_CALC_II": {
+                    "Buckets": [
+                        "CALC_II"
+                    ],
+                    "Credits": 3,
+                    "Req Description": "Calculus Sequence"
+                },
+                "OIE_CALC_III": {
+                    "Buckets": [
+                        "CALC_III",
+                        "MA_1033"
+                    ],
+                    "Credits": 3,
+                    "Req Description": "Calculus Sequence"
+                },
+                "OIE_CALC_IV": {
+                    "Buckets": [
+                        "CALC_IV"
+                    ],
+                    "Credits": 3,
+                    "Req Description": "Calculus Sequence"
+                },
+                "OIE_CORE": {
+                    "Buckets": [
+                        "OIE_CORE"
+                    ],
+                    "Credits": 21,
+                    "Req Description": "OIE Core"
+                },
+                "OIE_CS": {
+                    "Buckets": [
+                        "CS_21XX",
+                        "OIE_3600"
+                    ],
+                    "Credits": 3,
+                    "Req Description": "OIE Core"
+                },
+                "OIE_DIFEQ": {
+                    "Buckets": [
+                        "DIF_EQ"
+                    ],
+                    "Credits": 3,
+                    "Req Description": "Calculus Sequence"
+                },
+                "OIE_ELECT": {
+                    "Buckets": [
+                        "OIE_MA_ELECT",
+                        "MA_3631",
+                        "OIE_3600",
+                        "OIE_OTHER",
+                        "OIE_CHOICE",
+                        "OIE_MIS_ELECT"
+                    ],
+                    "Credits": 9,
+                    "Req Description": "OIE Electives"
+                },
+                "OIE_ES": {
+                    "Buckets": [
+                        "OIE_ES_RESTR",
+                        "ES_ANY"
+                    ],
+                    "Credits": 3,
+                    "Req Description": "Technical Electives"
+                },
+                "OIE_MA_SCI": {
+                    "Buckets": [
+                        "MA_3000P",
+                        "OIE_MA_ELECT",
+                        "MA_3631",
+                        "REAL_ALYS",
+                        "ABS_ALG",
+                        "MA_ANY",
+                        "TRANSIT_LL",
+                        "PROB_STATS",
+                        "MA_2631",
+                        "TRANSIT_R",
+                        "CS_2022",
+                        "NUM_METHD",
+                        "DS_4635",
+                        "OTHR_SCI",
+                        "BB_4190",
+                        "REG_SCI_ES",
+                        "PH_ANY",
+                        "CH_ANY",
+                        "ECE_2112",
+                        "BCB_4004"
+                    ],
+                    "Credits": 6,
+                    "Req Description": "Math and Science Electives"
+                },
+                "OIE_SCI": {
+                    "Buckets": [
+                        "BB_4190",
+                        "REG_SCI_ES",
+                        "PH_ANY",
+                        "CH_ANY",
+                        "ECE_2112"
+                    ],
+                    "Credits": 9,
+                    "Req Description": "Physics and Chemistry"
+                },
+                "OIE_STATS_I": {
+                    "Buckets": [
+                        "STATS_1"
+                    ],
+                    "Credits": 3,
+                    "Req Description": "Statistics"
+                },
+                "OIE_STATS_II": {
+                    "Buckets": [
+                        "PROB_STATS",
+                        "MA_2631"
+                    ],
+                    "Credits": 3,
+                    "Req Description": "Statistics"
+                },
+                "OIE_TECH_ELECT": {
+                    "Buckets": [
+                        "OIE_MA_ELECT",
+                        "MA_3631",
+                        "CS_DEPT",
+                        "CS_21XX",
+                        "CS_3043",
+                        "CS_2022",
+                        "NUM_METHD",
+                        "OIE_3600",
+                        "OIE_OTHER",
+                        "OIE_CHOICE",
+                        "OIE_ES_RESTR",
+                        "ES_ANY",
+                        "ECE_2112",
+                        "OIE_MIS_ELECT",
+                        "OIE_ENG_ELECT"
+                    ],
+                    "Credits": 6,
+                    "Req Description": "Technical Electives"
+                }
+            },
+            "Sreqs": {
+                "OIE_CH": {
+                    "Applicable Reqs": [
+                        "OIE_SCI"
+                    ],
+                    "Buckets": [
+                        "BB_4190",
+                        "CH_ANY"
+                    ],
+                    "Credits": 3.0,
+                    "Sreq Description": "At least one CH course",
+                    "Sreq Type": "1a",
+                    "Sublists Count": 0
+                },
+                "OIE_ELECT_RESTR": {
+                    "Applicable Reqs": [
+                        "OIE_TECH_ELECT"
+                    ],
+                    "Buckets": [
+                        "CS_3043",
+                        "OIE_ENG_RESTR",
+                        "CE_3022"
+                    ],
+                    "Credits": 0.0,
+                    "Sreq Description": "May not be used for OIE technical electives",
+                    "Sreq Type": "1b",
+                    "Sublists Count": 0
+                },
+                "OIE_ES_RESTR": {
+                    "Applicable Reqs": [
+                        "OIE_TECH_ELECT",
+                        "OIE_ES"
+                    ],
+                    "Buckets": [
+                        "OIE_ES_RESTR"
+                    ],
+                    "Credits": 0.0,
+                    "Sreq Description": "May not be used for OIE technical electives",
+                    "Sreq Type": "1b",
+                    "Sublists Count": 0
+                },
+                "OIE_PH": {
+                    "Applicable Reqs": [
+                        "OIE_SCI"
+                    ],
+                    "Buckets": [
+                        "REG_SCI_ES",
+                        "PH_ANY",
+                        "ECE_2112"
+                    ],
+                    "Credits": 3.0,
+                    "Sreq Description": "At least one PH course",
+                    "Sreq Type": "1a",
+                    "Sublists Count": 0
+                }
+            }
+        }
+    },
+    "OIE_MAJOR_ONLY": {
+        "ALL_MAJORS": {
+            "Reqs": {
+                "HUA_CORE": {
+                    "Buckets": [
+                        "ART_CON",
+                        "FLG_CON",
+                        "WR_CON",
+                        "HI_CON",
+                        "PY_CON"
+                    ],
+                    "Credits": 15,
+                    "Req Description": "Humanities"
+                },
+                "HUA_PROJ": {
+                    "Buckets": [
+                        "HUA_PROJ"
+                    ],
+                    "Credits": 3,
+                    "Req Description": "Humanities"
+                },
+                "IQP": {
+                    "Buckets": [
+                        "IQP_ON_CM",
+                        "IQP_OFF_CM"
+                    ],
+                    "Credits": 9,
+                    "Req Description": "IQP"
+                },
+                "SOC_SCI_REQ": {
+                    "Buckets": [
+                        "ID_2050",
+                        "ALL_SOC_SCI"
+                    ],
+                    "Credits": 6,
+                    "Req Description": "Social Science"
+                }
+            },
+            "Sreqs": {
+                "HUA_ART_MAX": {
+                    "Applicable Reqs": [
+                        "HUA_CORE"
+                    ],
+                    "Buckets": [
+                        "ART_CON"
+                    ],
+                    "Credits": 12.0,
+                    "Sreq Description": "Breadth requirement",
+                    "Sreq Type": "1b",
+                    "Sublists Count": 0
+                },
+                "HUA_DEPTH": {
+                    "Applicable Reqs": [
+                        "HUA_CORE"
+                    ],
+                    "Buckets": [
+                        [
+                            "ART_CON"
+                        ],
+                        [
+                            "FLG_CON"
+                        ],
+                        [
+                            "WR_CON"
+                        ],
+                        [
+                            "HI_CON"
+                        ],
+                        [
+                            "PY_CON"
+                        ]
+                    ],
+                    "Credits": 9.0,
+                    "Sreq Description": "Depth requirement",
+                    "Sreq Type": "2",
+                    "Sublists Count": 5
+                },
+                "HUA_HI_MAX": {
+                    "Applicable Reqs": [
+                        "HUA_CORE"
+                    ],
+                    "Buckets": [
+                        "HI_CON"
+                    ],
+                    "Credits": 12.0,
+                    "Sreq Description": "Breadth requirement",
+                    "Sreq Type": "1b",
+                    "Sublists Count": 0
+                },
+                "HUA_PY_MAX": {
+                    "Applicable Reqs": [
+                        "HUA_CORE"
+                    ],
+                    "Buckets": [
+                        "PY_CON"
+                    ],
+                    "Credits": 12.0,
+                    "Sreq Description": "Breadth requirement",
+                    "Sreq Type": "1b",
+                    "Sublists Count": 0
+                },
+                "HUA_WR_MAX": {
+                    "Applicable Reqs": [
+                        "HUA_CORE"
+                    ],
+                    "Buckets": [
+                        "WR_CON"
+                    ],
+                    "Credits": 12.0,
+                    "Sreq Description": "Breadth requirement",
+                    "Sreq Type": "1b",
+                    "Sublists Count": 0
+                },
+                "ON_OFF_CAMPUS": {
+                    "Applicable Reqs": [
+                        "IQP",
+                        "SOC_SCI_REQ"
+                    ],
+                    "Buckets": [
+                        "IQP_ON_CM",
+                        "ID_2050"
+                    ],
+                    "Credits": 3.0,
+                    "Sreq Description": "Must take ID 2050 for off campus IQP",
+                    "Sreq Type": "1a",
+                    "Sublists Count": 0
+                }
+            }
+        },
+        "Buckets": {
+            "ALL_SOC_SCI": {
+                "Bucket Contents": [
+                    "ECON_DEPT",
+                    "ENV_DEPT",
+                    "GOV_DEPT",
+                    "PSY_DEPT",
+                    "SD_DEPT",
+                    "SOC_DEPT",
+                    "SS_DEPT",
+                    "STS_DEPT",
+                    "DEV_DEPT",
+                    "MU_2501",
+                    "ENV_2500"
+                ],
+                "Bucket Description": "Social Science",
+                "Bucket Size": 60,
+                "Choice Weight": 60,
+                "Credits Each": 3,
+                "Req Keys": [
+                    "SOC_SCI_REQ"
+                ]
+            },
+            "ART_CON": {
+                "Bucket Contents": [
+                    "AR_DEPT",
+                    "TH_DEPT",
+                    "MUS_DEPT",
+                    "IMGD_341X"
+                ],
+                "Bucket Description": "Humanities",
+                "Bucket Size": 20,
+                "Choice Weight": 20,
+                "Credits Each": 3,
+                "Req Keys": [
+                    "HUA_CORE",
+                    "HUA_DEPTH_SL_0",
+                    "HUA_ART_MAX"
+                ]
+            },
+            "BB_4190": {
+                "Bucket Contents": [
+                    "BB_4190"
+                ],
+                "Bucket Description": "BB 4190",
+                "Bucket Size": 1,
+                "Choice Weight": 1,
+                "Credits Each": 3,
+                "Req Keys": [
+                    "OIE_SCI",
+                    "OIE_MA_SCI",
+                    "OIE_CH"
+                ]
+            },
+            "CALC_I": {
+                "Bucket Contents": [
+                    "MA_1021"
+                ],
+                "Bucket Description": "MA 1021",
+                "Bucket Size": 1,
+                "Choice Weight": 1,
+                "Credits Each": 3,
+                "Req Keys": [
+                    "OIE_CALC_I"
+                ]
+            },
+            "CALC_II": {
+                "Bucket Contents": [
+                    "MA_1022"
+                ],
+                "Bucket Description": "MA 1022",
+                "Bucket Size": 1,
+                "Choice Weight": 1,
+                "Credits Each": 3,
+                "Req Keys": [
+                    "OIE_CALC_II"
+                ]
+            },
+            "CALC_III": {
+                "Bucket Contents": [
+                    "MA_1023",
+                    "MA_1033"
+                ],
+                "Bucket Description": "CALC III",
+                "Bucket Size": 2,
+                "Choice Weight": 2,
+                "Credits Each": 3,
+                "Req Keys": [
+                    "OIE_CALC_III"
+                ]
+            },
+            "CALC_IV": {
+                "Bucket Contents": [
+                    "MA_1024",
+                    "MA_1034"
+                ],
+                "Bucket Description": "CALC IV",
+                "Bucket Size": 2,
+                "Choice Weight": 2,
+                "Credits Each": 3,
+                "Req Keys": [
+                    "OIE_CALC_IV"
+                ]
+            },
+            "CH_ANY": {
+                "Bucket Contents": [
+                    "CH_DEPT"
+                ],
+                "Bucket Description": "CH DEPT",
+                "Bucket Size": 27,
+                "Choice Weight": 27,
+                "Credits Each": 3,
+                "Req Keys": [
+                    "OIE_SCI",
+                    "OIE_MA_SCI",
+                    "OIE_CH"
+                ]
+            },
+            "CS_ANY": {
+                "Bucket Contents": [
+                    "CS_DEPT",
+                    "BCB_4002",
+                    "BCB_4003"
+                ],
+                "Bucket Description": "CS DEPT",
+                "Bucket Size": 31,
+                "Choice Weight": 41,
+                "Credits Each": 3,
+                "Req Keys": [
+                    "OIE_TECH_ELECT"
+                ]
+            },
+            "DIF_EQ": {
+                "Bucket Contents": [
+                    "MA_2051"
+                ],
+                "Bucket Description": "MA 2051",
+                "Bucket Size": 1,
+                "Choice Weight": 1,
+                "Credits Each": 3,
+                "Req Keys": [
+                    "OIE_DIFEQ"
+                ]
+            },
+            "ECE_2112": {
+                "Bucket Contents": [
+                    "ECE_2112"
+                ],
+                "Bucket Description": "ECE 2112",
+                "Bucket Size": 1,
+                "Choice Weight": 1,
+                "Credits Each": 3,
+                "Req Keys": [
+                    "OIE_SCI",
+                    "OIE_MA_SCI",
+                    "OIE_PH",
+                    "OIE_TECH_ELECT"
+                ]
+            },
+            "ES_ANY": {
+                "Bucket Contents": [
+                    "ES_DEPT"
+                ],
+                "Bucket Description": "ES DEPT",
+                "Bucket Size": 13,
+                "Choice Weight": 15,
+                "Credits Each": 3,
+                "Req Keys": [
+                    "OIE_ES",
+                    "OIE_TECH_ELECT"
+                ]
+            },
+            "FLG_CON": {
+                "Bucket Contents": [
+                    "CN_DEPT",
+                    "GN_DEPT",
+                    "SP_DEPT",
+                    "AB_DEPT",
+                    "ID_3525",
+                    "ID_3527",
+                    "ID_3529",
+                    "ID_3530",
+                    "ID_3531"
+                ],
+                "Bucket Description": "Humanities",
+                "Bucket Size": 20,
+                "Choice Weight": 20,
+                "Credits Each": 3,
+                "Req Keys": [
+                    "HUA_CORE",
+                    "HUA_DEPTH_SL_4"
+                ]
+            },
+            "HI_CON": {
+                "Bucket Contents": [
+                    "HI_DEPT",
+                    "HU_DEPT",
+                    "INTL_DEPT"
+                ],
+                "Bucket Description": "Humanities",
+                "Bucket Size": 20,
+                "Choice Weight": 20,
+                "Credits Each": 3,
+                "Req Keys": [
+                    "HUA_CORE",
+                    "HUA_DEPTH_SL_2",
+                    "HUA_HI_MAX"
+                ]
+            },
+            "HUA_PROJ": {
+                "Bucket Contents": [
+                    "HU_3900",
+                    "HU_3910"
+                ],
+                "Bucket Description": "HU 3900 or 3910",
+                "Bucket Size": 2,
+                "Choice Weight": 1,
+                "Credits Each": 3,
+                "Req Keys": [
+                    "HUA_PROJ"
+                ]
+            },
+            "ID_2050": {
+                "Bucket Contents": [
+                    "ID_2050"
+                ],
+                "Bucket Description": "ID 2050",
+                "Bucket Size": 1,
+                "Choice Weight": 1,
+                "Credits Each": 3,
+                "Req Keys": [
+                    "SOC_SCI_REQ",
+                    "ON_OFF_CAMPUS"
+                ]
+            },
+            "IQP_OFF_CM": {
+                "Bucket Contents": [
+                    "IQP_OFF_CAMPUS",
+                    "IQP_A",
+                    "IQP_B",
+                    "IQP_C",
+                    "IQP_D"
+                ],
+                "Bucket Description": "IQP off campus",
+                "Bucket Size": 4,
+                "Choice Weight": 100,
+                "Credits Each": 9,
+                "Req Keys": [
+                    "IQP"
+                ]
+            },
+            "IQP_ON_CM": {
+                "Bucket Contents": [
+                    "IQP_ON_CAMPUS"
+                ],
+                "Bucket Description": "IQP on campus",
+                "Bucket Size": 1,
+                "Choice Weight": 25,
+                "Credits Each": 9,
+                "Req Keys": [
+                    "IQP",
+                    "ON_OFF_CAMPUS"
+                ]
+            },
+            "MA_ANY": {
+                "Bucket Contents": [
+                    "MA_DEPT",
+                    "BCB_4004",
+                    "DS_4635"
+                ],
+                "Bucket Description": "MA DEPT",
+                "Bucket Size": 33,
+                "Choice Weight": 52,
+                "Credits Each": 3,
+                "Req Keys": [
+                    "OIE_MA_SCI"
+                ]
+            },
+            "MA_CS": {
+                "Bucket Contents": [
+                    "CS_4032",
+                    "CS_4033",
+                    "CS_2022",
+                    "MA_3257",
+                    "MA_3457"
+                ],
+                "Bucket Description": "CS 4032, 4033, 2022",
+                "Bucket Size": 3,
+                "Choice Weight": 3,
+                "Credits Each": 3,
+                "Req Keys": [
+                    "OIE_MA_SCI",
+                    "OIE_TECH_ELECT"
+                ]
+            },
+            "OBJ_ORT": {
+                "Bucket Contents": [
+                    "CS_2119",
+                    "CS_2102",
+                    "CS_2103"
+                ],
+                "Bucket Description": "CS 2119, 2102, 2103",
+                "Bucket Size": 3,
+                "Choice Weight": 3,
+                "Credits Each": 3,
+                "Req Keys": [
+                    "OIE_CS"
+                ]
+            },
+            "OIE_3600": {
+                "Bucket Contents": [
+                    "OIE_3600"
+                ],
+                "Bucket Description": "OIE 3600",
+                "Bucket Size": 1,
+                "Choice Weight": 1,
+                "Credits Each": 3,
+                "Req Keys": [
+                    "OIE_CS",
+                    "OIE_ELECT",
+                    "OIE_TECH_ELECT"
+                ]
+            },
+            "OIE_CHOICE": {
+                "Bucket Contents": [
+                    "OIE_3405",
+                    "OIE_4430"
+                ],
+                "Bucket Description": "OIE 3405, 4430",
+                "Bucket Size": 2,
+                "Choice Weight": 2,
+                "Credits Each": 3,
+                "Req Keys": [
+                    "OIE_44_34",
+                    "OIE_ELECT",
+                    "OIE_TECH_ELECT"
+                ]
+            },
+            "OIE_CORE": {
+                "Bucket Contents": [
+                    "OIE_2081",
+                    "BUS_3020",
+                    "OIE_2850",
+                    "OIE_3410",
+                    "OIE_3420",
+                    "OIE_3460",
+                    "OIE_3510"
+                ],
+                "Bucket Description": "OIE Core",
+                "Bucket Size": 7,
+                "Choice Weight": 7,
+                "Credits Each": 3,
+                "Req Keys": [
+                    "OIE_CORE"
+                ]
+            },
+            "OIE_ENG_ELECT": {
+                "Bucket Contents": [
+                    "CE_DEPT",
+                    "CHE_DEPT",
+                    "ECE_DEPT",
+                    "ME_DEPT",
+                    "RBE_DEPT",
+                    "BME_4504",
+                    "BME_4606",
+                    "BME_4814",
+                    "CS_4801"
+                ],
+                "Bucket Description": "Engineering Elective",
+                "Bucket Size": 100,
+                "Choice Weight": 100,
+                "Credits Each": 3,
+                "Req Keys": [
+                    "OIE_TECH_ELECT"
+                ]
+            },
+            "OIE_ENG_RESTR": {
+                "Bucket Contents": [
+                    "CE_3022",
+                    "CS_1004",
+                    "CS_1101",
+                    "CS_1102",
+                    "CS_3043"
+                ],
+                "Bucket Description": "CE 3022, CS 1004, CS 1101, CS 1102, CS 3043",
+                "Bucket Size": 5,
+                "Choice Weight": 5,
+                "Credits Each": 3,
+                "Req Keys": [
+                    "OIE_ELECT_RESTR"
+                ]
+            },
+            "OIE_ES_RESTR": {
+                "Bucket Contents": [
+                    "ES_3323"
+                ],
+                "Bucket Description": "ES 3323",
+                "Bucket Size": 1,
+                "Choice Weight": 1,
+                "Credits Each": 3,
+                "Req Keys": [
+                    "OIE_ES_RESTR",
+                    "OIE_ES",
+                    "OIE_TECH_ELECT"
+                ]
+            },
+            "OIE_MA_ELECT": {
+                "Bucket Contents": [
+                    "MA_3231",
+                    "MA_3233",
+                    "MA_3627",
+                    "MA_3631",
+                    "MA_4235",
+                    "MA_4237",
+                    "MA_4631",
+                    "MA_4632"
+                ],
+                "Bucket Description": "OIE MATH",
+                "Bucket Size": 8,
+                "Choice Weight": 8,
+                "Credits Each": 3,
+                "Req Keys": [
+                    "OIE_ELECT",
+                    "OIE_MA_SCI",
+                    "OIE_TECH_ELECT"
+                ]
+            },
+            "OIE_MIS_ELECT": {
+                "Bucket Contents": [
+                    "MIS_3720",
+                    "MIS_4084",
+                    "MIS_4720",
+                    "MIS_4741"
+                ],
+                "Bucket Description": "OIE MIS",
+                "Bucket Size": 4,
+                "Choice Weight": 4,
+                "Credits Each": 3,
+                "Req Keys": [
+                    "OIE_ELECT",
+                    "OIE_TECH_ELECT"
+                ]
+            },
+            "OIE_OTHER": {
+                "Bucket Contents": [
+                    "OIE_4410",
+                    "OIE_4460"
+                ],
+                "Bucket Description": "OIE 4410, 4460",
+                "Bucket Size": 2,
+                "Choice Weight": 2,
+                "Credits Each": 3,
+                "Req Keys": [
+                    "OIE_ELECT",
+                    "OIE_TECH_ELECT"
+                ]
+            },
+            "OTHR_SCI": {
+                "Bucket Contents": [
+                    "BB_DEPT",
+                    "GE_DEPT"
+                ],
+                "Bucket Description": "BB DEPT, GE DEPT",
+                "Bucket Size": 43,
+                "Choice Weight": 43,
+                "Credits Each": 3,
+                "Req Keys": [
+                    "OIE_MA_SCI"
+                ]
+            },
+            "PH_ANY": {
+                "Bucket Contents": [
+                    "PH_DEPT",
+                    "ECE_2112",
+                    "AE_2550"
+                ],
+                "Bucket Description": "PH DEPT",
+                "Bucket Size": 28,
+                "Choice Weight": 28,
+                "Credits Each": 3,
+                "Req Keys": [
+                    "OIE_SCI",
+                    "OIE_MA_SCI",
+                    "OIE_PH"
+                ]
+            },
+            "PROB_STATS": {
+                "Bucket Contents": [
+                    "MA_2612",
+                    "MA_2621",
+                    "MA_2631"
+                ],
+                "Bucket Description": "MA 2612, 2621, 2631",
+                "Bucket Size": 3,
+                "Choice Weight": 3,
+                "Credits Each": 3,
+                "Req Keys": [
+                    "OIE_STATS_II",
+                    "OIE_MA_SCI"
+                ]
+            },
+            "PY_CON": {
+                "Bucket Contents": [
+                    "PY_DEPT",
+                    "RE_DEPT"
+                ],
+                "Bucket Description": "Humanities",
+                "Bucket Size": 20,
+                "Choice Weight": 20,
+                "Credits Each": 3,
+                "Req Keys": [
+                    "HUA_CORE",
+                    "HUA_DEPTH_SL_3",
+                    "HUA_PY_MAX"
+                ]
+            },
+            "STATS_1": {
+                "Bucket Contents": [
+                    "MA_2611"
+                ],
+                "Bucket Description": "MA 2611",
+                "Bucket Size": 1,
+                "Choice Weight": 1,
+                "Credits Each": 3,
+                "Req Keys": [
+                    "OIE_STATS_I"
+                ]
+            },
+            "WR_CON": {
+                "Bucket Contents": [
+                    "EN_DEPT",
+                    "WR_DEPT",
+                    "IMGD_2400",
+                    "IMGD_3400",
+                    "EN_241X"
+                ],
+                "Bucket Description": "Humanities",
+                "Bucket Size": 20,
+                "Choice Weight": 20,
+                "Credits Each": 3,
+                "Req Keys": [
+                    "HUA_CORE",
+                    "HUA_DEPTH_SL_1",
+                    "HUA_WR_MAX"
+                ]
+            }
+        },
+        "OIE_MAJOR": {
+            "Reqs": {
+                "OIE_44_34": {
+                    "Buckets": [
+                        "OIE_CHOICE"
+                    ],
+                    "Credits": 3,
+                    "Req Description": "OIE Core"
+                },
+                "OIE_CALC_I": {
+                    "Buckets": [
+                        "CALC_I"
+                    ],
+                    "Credits": 3,
+                    "Req Description": "Calculus Sequence"
+                },
+                "OIE_CALC_II": {
+                    "Buckets": [
+                        "CALC_II"
+                    ],
+                    "Credits": 3,
+                    "Req Description": "Calculus Sequence"
+                },
+                "OIE_CALC_III": {
+                    "Buckets": [
+                        "CALC_III"
+                    ],
+                    "Credits": 3,
+                    "Req Description": "Calculus Sequence"
+                },
+                "OIE_CALC_IV": {
+                    "Buckets": [
+                        "CALC_IV"
+                    ],
+                    "Credits": 3,
+                    "Req Description": "Calculus Sequence"
+                },
+                "OIE_CORE": {
+                    "Buckets": [
+                        "OIE_CORE"
+                    ],
+                    "Credits": 21,
+                    "Req Description": "OIE Core"
+                },
+                "OIE_CS": {
+                    "Buckets": [
+                        "OBJ_ORT",
+                        "OIE_3600"
+                    ],
+                    "Credits": 3,
+                    "Req Description": "OIE Core"
+                },
+                "OIE_DIFEQ": {
+                    "Buckets": [
+                        "DIF_EQ"
+                    ],
+                    "Credits": 3,
+                    "Req Description": "Calculus Sequence"
+                },
+                "OIE_ELECT": {
+                    "Buckets": [
+                        "OIE_MA_ELECT",
+                        "OIE_3600",
+                        "OIE_OTHER",
+                        "OIE_CHOICE",
+                        "OIE_MIS_ELECT"
+                    ],
+                    "Credits": 9,
+                    "Req Description": "OIE Electives"
+                },
+                "OIE_ES": {
+                    "Buckets": [
+                        "ES_ANY",
+                        "OIE_ES_RESTR"
+                    ],
+                    "Credits": 3,
+                    "Req Description": "Technical Electives"
+                },
+                "OIE_MA_SCI": {
+                    "Buckets": [
+                        "MA_ANY",
+                        "OIE_MA_ELECT",
+                        "PROB_STATS",
+                        "MA_CS",
+                        "BB_4190",
+                        "CH_ANY",
+                        "ECE_2112",
+                        "PH_ANY",
+                        "OTHR_SCI"
+                    ],
+                    "Credits": 6,
+                    "Req Description": "Math and Science Electives"
+                },
+                "OIE_SCI": {
+                    "Buckets": [
+                        "BB_4190",
+                        "CH_ANY",
+                        "ECE_2112",
+                        "PH_ANY"
+                    ],
+                    "Credits": 9,
+                    "Req Description": "Physics and Chemistry"
+                },
+                "OIE_STATS_I": {
+                    "Buckets": [
+                        "STATS_1"
+                    ],
+                    "Credits": 3,
+                    "Req Description": "Statistics"
+                },
+                "OIE_STATS_II": {
+                    "Buckets": [
+                        "PROB_STATS"
+                    ],
+                    "Credits": 3,
+                    "Req Description": "Statistics"
+                },
+                "OIE_TECH_ELECT": {
+                    "Buckets": [
+                        "OIE_MA_ELECT",
+                        "CS_ANY",
+                        "MA_CS",
+                        "OIE_3600",
+                        "OIE_OTHER",
+                        "OIE_CHOICE",
+                        "OIE_MIS_ELECT",
+                        "ES_ANY",
+                        "OIE_ES_RESTR",
+                        "OIE_ENG_ELECT",
+                        "ECE_2112"
+                    ],
+                    "Credits": 6,
+                    "Req Description": "Technical Electives"
+                }
+            },
+            "Sreqs": {
+                "OIE_CH": {
+                    "Applicable Reqs": [
+                        "OIE_SCI"
+                    ],
+                    "Buckets": [
+                        "BB_4190",
+                        "CH_ANY"
+                    ],
+                    "Credits": 3.0,
+                    "Sreq Description": "At least one CH course",
+                    "Sreq Type": "1a",
+                    "Sublists Count": 0
+                },
+                "OIE_ELECT_RESTR": {
+                    "Applicable Reqs": [
+                        "OIE_TECH_ELECT"
+                    ],
+                    "Buckets": [
+                        "OIE_ENG_RESTR"
+                    ],
+                    "Credits": 0.0,
+                    "Sreq Description": "May not be used for OIE technical electives",
+                    "Sreq Type": "1b",
+                    "Sublists Count": 0
+                },
+                "OIE_ES_RESTR": {
+                    "Applicable Reqs": [
+                        "OIE_TECH_ELECT",
+                        "OIE_ES"
+                    ],
+                    "Buckets": [
+                        "OIE_ES_RESTR"
+                    ],
+                    "Credits": 0.0,
+                    "Sreq Description": "May not be used for OIE technical electives",
+                    "Sreq Type": "1b",
+                    "Sublists Count": 0
+                },
+                "OIE_PH": {
+                    "Applicable Reqs": [
+                        "OIE_SCI"
+                    ],
+                    "Buckets": [
+                        "ECE_2112",
+                        "PH_ANY"
+                    ],
+                    "Credits": 3.0,
+                    "Sreq Description": "At least one PH course",
+                    "Sreq Type": "1a",
+                    "Sublists Count": 0
+                }
+            }
+        }
+    }
+}
