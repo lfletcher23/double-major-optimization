@@ -24,7 +24,6 @@ def reload_all(name_prefix, save_all_files=True, config_path = "config.json"):
 
 def reload_buckets(name_prefix, reqs_ref, save_all_files= True, config_path="config.json"):
     config_file = bd.get_dict_from_json(config_path)
-    buckets_path = config_file["BUCKETS_PATH"]
     bucket_dfs = pd.read_excel(config_file["BUCKETS_PATH"], sheet_name=None)
     buckets_ref = sb.upload_buckets(bucket_dfs, config_file["BUCKET_FIELDS"])
     if save_all_files:

@@ -1,7 +1,6 @@
 {
     "REQS_PATH": "Data/Sheets/Requirements.xlsx",
     "BUCKETS_PATH": "Data/Sheets/Buckets.xlsx",
-    "COURSES_PATH": "Data/Sheets/Courses.xlsx",
     "PROGRAM_REF_PATH": "Data/JSONs/programs_ref.json", 
     "RUNS_AND_PROGRAMS": 
         {"MATH_MAJOR_ONLY": ["MATH_MAJOR", "ALL_MAJORS"],
