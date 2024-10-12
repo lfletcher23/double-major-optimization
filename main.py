@@ -8,7 +8,6 @@ program_keys = ["MATH_MAJOR", "OIE_MAJOR"]
 #courses_taken = ["MA_1021", "MA_1022", "MA_1023", "PH_1110", "CH_1010", "ES_2001", "WR_2001"]
 
 # output will be a txt, do not add .txt to the end
-# output name can be basically anything (probably don't use weird symbols....)
 usr.run_model(program_keys, courses_taken, write_output=True, output_name="my_schedule")
 
 
